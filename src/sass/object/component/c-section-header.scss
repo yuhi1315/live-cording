@@ -1,0 +1,44 @@
+@use "global" as *;
+
+.c-section-header {
+  color: $blue;
+  text-align: center;
+}
+
+.c-section-header__ja-title {
+  font-size: rem(13);
+  letter-spacing: 0.05em;
+  line-height: 1;
+  font-weight: $bold;
+  @include mq("md") {
+    font-size: rem(14);
+  }
+}
+
+.c-section-header__eng-title {
+  font-size: rem(30);
+  letter-spacing: 0.05em;
+  line-height: calc(37 / 30);
+  font-family: $english-family;
+  font-weight: $bold;
+  text-transform: uppercase;
+  @include mq("md") {
+    font-size: rem(36);
+  }
+}
+
+.c-button {
+  display: inline-block;
+  font-size: rem(14);
+  color: $white;
+  font-weight: $bold;
+  letter-spacing: 0.07em;
+  width: rem(200);
+  text-transform: uppercase;
+  background: transparent linear-gradient(90deg, #7633a4 0%, #250d65 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 1;
+  padding: rem(23) 0;
+}

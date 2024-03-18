@@ -1,0 +1,71 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.c-section-header {
+  color: #391e88;
+  text-align: center;
+}
+
+.c-section-header__ja-title {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .c-section-header__ja-title {
+    font-size: 0.875rem;
+  }
+}
+
+.c-section-header__eng-title {
+  font-size: 30px;
+  font-size: 1.875rem;
+  letter-spacing: 0.05em;
+  line-height: 1.2333333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .c-section-header__eng-title {
+    font-size: 2.25rem;
+  }
+}
+
+.c-button {
+  display: inline-block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  width: 200px;
+  width: 12.5rem;
+  text-transform: uppercase;
+  background: transparent -webkit-gradient(linear, left top, right top, from(#7633a4), to(#250d65)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #7633a4 0%, #250d65 100%) 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 1;
+  padding: 23px 0;
+  padding: 1.4375rem 0;
+}
+/*# sourceMappingURL=c-section-header.css.map */
